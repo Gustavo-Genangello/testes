@@ -1,6 +1,17 @@
-h1{
-   background-color: rgb(176, 55, 201);
-   text-align: center;
-   color: azure;
-} 
-div{background-color: aqua;}
+@media (min-width: 76px) {
+   div{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   } 
+}
+@media (min-width: 500px) {
+   div{
+      .segundo{
+         background-color: green;
+      }
+      .terceiro{
+         background-color: purple;
+      }
+   } 
+}
