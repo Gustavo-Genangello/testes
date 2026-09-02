@@ -1,17 +1,30 @@
-@media (min-width: 76px) {
-   div{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-   } 
+div{
+   text-align: center;
 }
-@media (min-width: 500px) {
-   div{
+
+
+
+
+@media (min-width: 768px) {
       .segundo{
+         display: flex;
          background-color: green;
-      }
+          justify-content: space-around;
+   }
       .terceiro{
-         background-color: purple;
-      }
+         background-color: rgb(218, 64, 218);
+      } 
+}
+@media (min-width: 1024px) {
+   .primeiro{
+      display: flex;
+      background-color: aqua;
+      justify-content: space-around;
+   }
+   .segundo{
+      background-color: beige;
+   }
+   .terceiro{
+       background-color: rgb(255, 41, 41);
    } 
 }
